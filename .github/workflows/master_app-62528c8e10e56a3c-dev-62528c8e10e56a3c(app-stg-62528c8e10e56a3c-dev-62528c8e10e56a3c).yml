@@ -34,6 +34,6 @@ jobs:
       with:
         app-name: app-62528c8e10e56a3c-dev-62528c8e10e56a3c
         slot-name: app-stg-62528c8e10e56a3c-dev-62528c8e10e56a3c
-        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1FBE96A43BA84A0D8634148040F34632 }}
+        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7BEFD645AF0E47DFA53BB5618D4F76EF }}
         package: ${{env.DOTNET_ROOT}}/myapp
 
